@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>username</h1>
-    <input type="text" placeholder="enter username">
-    <h1>password</h1>
-    <input type="text" placeholder="enter password">
+    <div class="main">
+    <div class="con1">
+        <h2 style="margin-left: 1rem;">Temperature Converter</h2>
+       
+        
+            <div class="form2">
+                <h3 style="margin-right:19% ;">Convert from</h3>
+                <form action="">
+                    <select name="Temperature scale" id="scale1">
+                        <option value="Choose scale">Choose Scale</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                        
+                      </select>
+                </form>
+            </div>
+            <div class="form3">
+                <h3 style="margin-right: 21%;">Convert to</h3>
+                <form action="">
+                    <select name="Temperature scale" id="scale2">
+                        <option value="Choose scale">Choose Scale</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                        
+                      </select>
+                </form>
+            </div>
+            <div class="form1">
+                <h3 style="margin-right: 26%;">Degree</h3>
+                
+                <form action="" id="form1">
+                    <input type="text" id="num">
+                </form>
+            </div>
+            <button>Convert</button>
+    </div>
+    <div class="con2">
+        <h1>0</h1>
+    </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
